@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "lanyard",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "lanyard",
+    "apiName": "lanyard",
+    "functionArns": [
+        {
+            "lambdaFunction": "lanyard"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "lanyard-dev-20190821130933-authRole",
+        "unAuthRoleName": "lanyard-dev-20190821130933-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "lanyard",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

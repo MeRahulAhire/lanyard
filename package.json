@@ -1,0 +1,78 @@
+{
+  "name": "lanyard",
+  "private": true,
+  "description": "The Agenda PWA for your Conference",
+  "version": "0.1.0",
+  "author": "StackTinkers",
+  "dependencies": {
+    "@apollo/client": "^3.7.2",
+    "@emotion/core": "^10.1.1",
+    "@emotion/styled": "^11.10.5",
+    "aws-amplify": "^5.0.5",
+    "aws-amplify-react": "^5.1.43",
+    "axios": "^1.2.1",
+    "gatsby": "^5.2.0",
+    "gatsby-image": "^2.2.4",
+    "gatsby-plugin-emotion": "^8.2.0",
+    "gatsby-plugin-google-analytics": "^5.2.0",
+    "gatsby-plugin-layout": "^4.2.0",
+    "gatsby-plugin-manifest": "^5.2.0",
+    "gatsby-plugin-offline": "^6.2.0",
+    "gatsby-plugin-react-helmet": "^6.2.0",
+    "gatsby-plugin-sharp": "^5.2.0",
+    "gatsby-source-filesystem": "^5.2.0",
+    "gatsby-transformer-json": "^5.2.0",
+    "gatsby-transformer-sharp": "^5.2.0",
+    "graphql": "^16.6.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-transition-group": "^4.4.5",
+    "typography": "^0.16.21"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.24.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.8.0"
+  },
+  "homepage": "https://www.awsugblr.in",
+  "keywords": [
+    "gatsby",
+    "awsugblr",
+    "agenda app",
+    "lanyard"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "rm -rf public && rm -rf .cache && gatsby build",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "format": "prettier --write '{gatsby-*.js,src/**/*.{js,jsx,json,css}}'",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{gatsby-*.js,src/**/*.{js,jsx,json,css}}": [
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hnprashanth/lanyard"
+  },
+  "bugs": {
+    "url": "https://github.com/hnprashanth/lanyard/issues"
+  }
+}

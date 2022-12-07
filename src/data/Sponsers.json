@@ -1,0 +1,80 @@
+[
+  {
+    "sponsers": [
+      {
+        "tierName": "platinum",
+        "brands": [
+          {
+            "sponserName": "Amazon Alexa",
+            "sponserWebsiteLink": "https://developer.amazon.com/en-US/alexa",
+            "sponserLogo": "alexa.png"
+          },
+          {
+            "sponserName": "what3words",
+            "sponserWebsiteLink": "https://what3words.com/",
+            "sponserLogo": "w3w.png"
+          }
+          
+        ]
+      },
+      {
+        "tierName": "gold",
+        "brands": [
+          {
+            "sponserName": "Tieto Evry",
+            "sponserWebsiteLink": "https://evry.in/",
+            "sponserLogo": "evry.jpg"
+          }
+          
+        ]
+      },
+      {
+        "tierName": "silver",
+        "brands": [
+          {
+            "sponserName": "BotMock",
+            "sponserWebsiteLink": "https://botmock.com/?utm_source=alexain&utm_medium=web&utm_campaign=alexa_in",
+            "sponserLogo": "botmock.png"
+          },
+          {
+            "sponserName": "DataVizz",
+            "sponserWebsiteLink": "https://datavizz.in/",
+            "sponserLogo": "datavizz.png"
+          }
+          
+        ]
+      },
+      {
+        "tierName": "community",
+        "brands": [
+          {
+            "sponserName": "Dabble Lab",
+            "sponserWebsiteLink": "https://dabblelab.com/",
+            "sponserLogo": "dabblelab.png"
+          },
+          {
+            "sponserName": "Konfhub",
+            "sponserWebsiteLink": "https://konfhub.com/",
+            "sponserLogo": "konfhub.jpg"
+          },
+          {
+            "sponserName": "Ant Stack",
+            "sponserWebsiteLink": "https://antstack.io/?utm_source=alexacommunityday&utm_medium=web&utm_campaign=alexacommunityday",
+            "sponserLogo": "antstackio.jpg"
+          },
+          {
+            "sponserName": "Voice Tech Podcast",
+            "sponserWebsiteLink": "https://voicetechpodcast.com/",
+            "sponserLogo": "voicetechp.png"
+          },
+          {
+            "sponserName": "Jet Brains",
+            "sponserWebsiteLink": "https://www.jetbrains.com/",
+            "sponserLogo": "jetbrains.png"
+          }
+          
+        ]
+      }
+    ]
+  }
+]
