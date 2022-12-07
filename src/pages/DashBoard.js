@@ -12,8 +12,8 @@ import { CSVLink, CSVDownload } from "react-csv"
 import { button, form_row } from "../components/jss/cvcss"
 import styled from "@emotion/styled"
 
-// import awsconfig from "../aws-exports"
-// Amplify.configure(awsconfig)
+import awsconfig from "../aws-exports"
+Amplify.configure(awsconfig)
 
 class DashBoard extends React.Component {
   state = {
